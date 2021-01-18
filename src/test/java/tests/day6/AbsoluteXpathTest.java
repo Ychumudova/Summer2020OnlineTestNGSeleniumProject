@@ -19,7 +19,9 @@ public class AbsoluteXpathTest {
         BrowserUtils.wait(2);
 
         WebElement warningSign = driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/form/fieldset/div[1]/div"));
-        System.out.println(warningSign.getText());
+
+        System.out.println(warningSign.getText());  // Invalid user name or password.
+
 
         BrowserUtils.wait(2);
         driver.quit();
